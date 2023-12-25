@@ -4,7 +4,7 @@ name: test-2
 spec:
     metadata: {}
     req:
-        method: POST
+        method: GET
         proto_major: 1
         proto_minor: 1
         url: http://localhost:9966/petclinic/api/owners
@@ -13,8 +13,6 @@ spec:
             Accept-Encoding: gzip, deflate, br
             Accept-Language: en-GB,en
             Connection: keep-alive
-            Content-Length: "153"
-            Content-Type: application/json
             Host: localhost:9966
             Origin: http://localhost:4200
             Referer: http://localhost:4200/
@@ -26,57 +24,55 @@ spec:
             Sec-Fetch-Site: same-site
             Sec-Gpc: "1"
             User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
-        body: '{"id":null,"firstName":"RITIK","lastName":"Shyngle","address":"Sector-2 , Opposite Manipal Hospital, Dwarka","city":"New Delhi","telephone":"9958178959"}'
+        body: ""
         body_type: ""
-        timestamp: 2023-12-25T05:46:26.026484169Z
-        host: ""
+        timestamp: 2023-12-13T12:56:05.810659203Z
     resp:
-        status_code: 201
+        status_code: 200
         header:
             Access-Control-Allow-Origin: '*'
             Access-Control-Expose-Headers: errors, content-type
             Cache-Control: no-cache, no-store, max-age=0, must-revalidate
             Connection: keep-alive
             Content-Type: application/json
-            Date: Mon, 25 Dec 2023 05:46:26 GMT
+            Date: Wed, 13 Dec 2023 12:56:07 GMT
             Expires: "0"
             Keep-Alive: timeout=60
-            Location: /api/owners/5
             Pragma: no-cache
             Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
             X-Content-Type-Options: nosniff
             X-Frame-Options: DENY
             X-Xss-Protection: "0"
-        body: '{"firstName":"RITIK","lastName":"Shyngle","address":"Sector-2 , Opposite Manipal Hospital, Dwarka","city":"New Delhi","telephone":"9958178959","id":5,"pets":[]}'
+        body: '[{"firstNamesc":"Sarthak","lastName":"Shyngle","address":"adgadg","city":"adgadg","telephone":"5153153","id":1,"pets":[]},{"firstName":"SARTHAK","lastName":"Shyngle","address":"Sector-2 , Opposite Manipal Hospital, Dwarka","city":"New Delhi","telephone":"9958178959","id":2,"pets":[]},{"firstName":"SARTHAK","lastName":"Shugu","address":"Sector-2 , Opposite Manipal Hospital, Dwarka","city":"New Delhi","telephone":"9958178959","id":3,"pets":[]}]'
         body_type: ""
         status_message: ""
         proto_major: 0
         proto_minor: 0
-        timestamp: 2023-12-25T05:46:29.027697256Z
+        timestamp: 2023-12-13T12:56:09.746068648Z
     objects: []
     assertions:
         noise:
+            body.firstName: []
+            body.lastName: []
             body.telephone: []
             header.Access-Control-Expose-Headers: []
             header.Date: []
-    created: 1703483189
-curl: |-
-    curl --request POST \
+    created: 1702472169
+curl: |
+    curl --request GET \
       --url http://localhost:9966/petclinic/api/owners \
-      --header 'Sec-Fetch-Dest: empty' \
-      --header 'Sec-Fetch-Site: same-site' \
-      --header 'Accept-Language: en-GB,en' \
-      --header 'Sec-Ch-Ua: "Brave";v="119", "Chromium";v="119", "Not?A_Brand";v="24"' \
-      --header 'Connection: keep-alive' \
-      --header 'Sec-Gpc: 1' \
-      --header 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
-      --header 'Sec-Ch-Ua-Platform: "macOS"' \
-      --header 'Sec-Fetch-Mode: cors' \
-      --header 'Referer: http://localhost:4200/' \
-      --header 'Accept: application/json, text/plain, */*' \
       --header 'Origin: http://localhost:4200' \
-      --header 'Accept-Encoding: gzip, deflate, br' \
-      --header 'Content-Type: application/json' \
+      --header 'Referer: http://localhost:4200/' \
       --header 'Host: localhost:9966' \
       --header 'Sec-Ch-Ua-Mobile: ?0' \
-      --data '{"id":null,"firstName":"RITIK","lastName":"Shyngle","address":"Sector-2 , Opposite Manipal Hospital, Dwarka","city":"New Delhi","telephone":"9958178959"}'
+      --header 'Accept-Language: en-GB,en' \
+      --header 'Sec-Ch-Ua-Platform: "macOS"' \
+      --header 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36' \
+      --header 'Sec-Gpc: 1' \
+      --header 'Sec-Fetch-Dest: empty' \
+      --header 'Connection: keep-alive' \
+      --header 'Sec-Fetch-Site: same-site' \
+      --header 'Accept: application/json, text/plain, */*' \
+      --header 'Sec-Fetch-Mode: cors' \
+      --header 'Sec-Ch-Ua: "Brave";v="119", "Chromium";v="119", "Not?A_Brand";v="24"' \
+      --header 'Accept-Encoding: gzip, deflate, br' \

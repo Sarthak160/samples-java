@@ -1,0 +1,267 @@
+
+       ▓██▓▄
+    ▓▓▓▓██▓█▓▄
+     ████████▓▒
+          ▀▓▓███▄      ▄▄   ▄               ▌
+         ▄▌▌▓▓████▄    ██ ▓█▀  ▄▌▀▄  ▓▓▌▄   ▓█  ▄▌▓▓▌▄ ▌▌   ▓
+       ▓█████████▌▓▓   ██▓█▄  ▓█▄▓▓ ▐█▌  ██ ▓█  █▌  ██  █▌ █▓
+      ▓▓▓▓▀▀▀▀▓▓▓▓▓▓▌  ██  █▓  ▓▌▄▄ ▐█▓▄▓█▀ █▓█ ▀█▄▄█▀   █▓█
+       ▓▌                           ▐█▌                   █▌
+        ▓
+  
+version: 2-dev
+
+🐰 Keploy: 2023-12-19T19:14:07Z 	[34mINFO[0m	cmd/record.go:158	continuing without configuration file because file not found
+🐰 Keploy: 2023-12-19T19:14:07Z 	[34mINFO[0m	cmd/record.go:198		{"keploy test and mock path": "/Users/sarthak_1/Documents/Keploy/v2/v2-final/samples-java/spring-petclinic/spring-petclinic-rest/keploy"}
+🐰 Keploy: 2023-12-19T19:14:07Z 	[35mDEBUG[0m	cmd/record.go:212	the ports are	{"ports": []}
+🐰 Keploy: 2023-12-19T19:14:08Z 	[34mINFO[0m	hooks/loader.go:781	keploy initialized and probes added to the kernel.
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	hooks/loader.go:792		{"Keploy Inode number": 4026531836}
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	hooks/loader.go:300	Sending keploy pid to kernel	{"pid": 1065198}
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	hooks/loader.go:795	Keploy Pid sent successfully...
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	proxy/proxy.go:255		{"isJavaServe": false}
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	proxy/proxy.go:260	checking java path from default java home
+🐰 Keploy: 2023-12-19T19:14:08Z 	[35mDEBUG[0m	proxy/proxy.go:275		{"java_home": "/usr/lib/jvm/java-17-openjdk-arm64", "caCertsPath": "/usr/lib/jvm/java-17-openjdk-arm64/lib/security/cacerts", "caPath": "/usr/local/share/ca-certificates/ca.crt"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[34mINFO[0m	proxy/proxy.go:278	Java detected and CA already exists	{"path": "/usr/lib/jvm/java-17-openjdk-arm64/lib/security/cacerts"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:255		{"isJavaServe": false}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:260	checking java path from default java home
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:275		{"java_home": "/usr/lib/jvm/java-17-openjdk-arm64", "caCertsPath": "/usr/lib/jvm/java-17-openjdk-arm64/lib/security/cacerts", "caPath": "/etc/ssl/certs/ca.crt"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[34mINFO[0m	proxy/proxy.go:278	Java detected and CA already exists	{"path": "/usr/lib/jvm/java-17-openjdk-arm64/lib/security/cacerts"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:449	Proxy IPv4:Port 3232236815:16789
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:450	Proxy IPV6:Port Addr [0 0 0 1]:16789
+🐰 Keploy: 2023-12-19T19:14:09Z 	[34mINFO[0m	proxy/proxy.go:451	Proxy started at port:16789
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:547		{"ProxyAddress4": "192.168.5.15"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:550		{"ProxyAddress6": "::1"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:559	Proxy server is listening on :[::]:16789
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	proxy/proxy.go:560	Proxy will accept both ipv4 and ipv6 connections	{"Ipv4": "192.168.5.15", "Ipv6": "::1"}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	hooks/launch.go:243	Running user application on Linux	{"pid of keploy": 1065198}
+🐰 Keploy: 2023-12-19T19:14:09Z 	[35mDEBUG[0m	hooks/launch.go:523		{"executing cmd": "/usr/bin/java -jar /Users/sarthak_1/Documents/Keploy/v2/v2-final/samples-java/spring-petclinic/spring-petclinic-rest/target/spring-petclinic-rest-3.0.2.jar"}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+INFO  Version - HV000001: Hibernate Validator 8.0.0.Final
+INFO  PetClinicApplication - Starting PetClinicApplication v3.0.2 using Java 17.0.9 with PID 1066089 (/Users/sarthak_1/Documents/Keploy/v2/v2-final/samples-java/spring-petclinic/spring-petclinic-rest/target/spring-petclinic-rest-3.0.2.jar started by newsarthak in /Users/sarthak_1/Documents/Keploy/v2/v2-final/samples-java/spring-petclinic/spring-petclinic-rest)
+DEBUG PetClinicApplication - Running with Spring Boot v3.0.2, Spring v6.0.4
+INFO  PetClinicApplication - The following 2 profiles are active: "mysql", "spring-data-jpa"
+INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 7 JPA repository interfaces.
+INFO  TomcatWebServer - Tomcat initialized with port(s): 9966 (http)
+INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9966"]
+INFO  StandardService - Starting service [Tomcat]
+INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+INFO  [/petclinic] - Initializing Spring embedded WebApplicationContext
+INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2375 ms
+INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+WARN  deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+INFO  HikariDataSource - HikariPool-1 - Starting...
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37316, "Time": 1703013254}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37316}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	util/util.go:90	the path to the generated keploy directory	{"path": "/Users/sarthak_1/Documents/Keploy/v2/v2-final/samples-java/spring-petclinic/spring-petclinic-rest/keploy"}
+INFO  HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e0cff20
+INFO  HikariDataSource - HikariPool-1 - Start completed.
+INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37320, "Time": 1703013254}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37320}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37330, "Time": 1703013254}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37330}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37338, "Time": 1703013254}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37338}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37340, "Time": 1703013254}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:14Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37340}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37344, "Time": 1703013255}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37344}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37352, "Time": 1703013255}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37352}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37356, "Time": 1703013255}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37356}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:780		{"PID in proxy:": 1065198}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:781		{"Filtering in Proxy": false}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:786	Inside handleConnection of proxyServer	{"source port": 37364, "Time": 1703013255}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	proxy/proxy.go:803		{"DestIp6": [0,0,65535,2130706433], "DestPort": 3306, "KernelPid": 1066089}
+🐰 Keploy: 2023-12-19T19:14:15Z 	[35mDEBUG[0m	hooks/loader.go:260	successfully removed entry from redirect proxy map	{"(Key)/SourcePort": 37364}
+2023/12/19 19:14:15 [ERROR] 🐰 Keploy:Recovered from:runtime error: index out of range [0] with length 0
+2023/12/19 19:14:15 [ERROR] 🐰 Keploy:Recovered from:runtime error: slice bounds out of range [:256] with capacity 231
+🐰 Keploy: 2023-12-19T19:15:16Z 	[34mINFO[0m	hooks/loader.go:413	Received signal to exit keploy program..
+🐰 Keploy: 2023-12-19T19:15:16Z 	[34mINFO[0m	hooks/loader.go:360	keploy has initiated the shutdown of the user application.
+🐰 Keploy: 2023-12-19T19:15:16Z 	[35mDEBUG[0m	hooks/loader.go:363	the process state for the user process	{"state": "<nil>", "processState": "<nil>"}
+🐰 Keploy: 2023-12-19T19:15:16Z 	[35mDEBUG[0m	hooks/loader.go:405	File kdocker-compose.yaml doesn't exist
+🐰 Keploy: 2023-12-19T19:15:17Z 	[34mINFO[0m	hooks/loader.go:466	eBPF resources released successfully...
+🐰 Keploy: 2023-12-19T19:15:17Z 	[31mERROR[0m	mysqlparser/mysqlparser.go:844	failed to read query from the mysql client	{"error": "read tcp [::1]:16789->[::1]:37320: use of closed network connection"}
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.handleClientQueries
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:844
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.encodeOutgoingMySql
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:440
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.(*MySqlParser).ProcessOutgoing
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:36
+go.keploy.io/server/pkg/proxy.(*ProxySet).handleConnection
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:826
+go.keploy.io/server/pkg/proxy.(*ProxySet).startProxy.func1
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:585
+🐰 Keploy: 2023-12-19T19:15:17Z 	[31mERROR[0m	mysqlparser/mysqlparser.go:844	failed to read query from the mysql client	{"error": "read tcp [::1]:16789->[::1]:37330: use of closed network connection"}
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.handleClientQueries
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:844
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.encodeOutgoingMySql
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:440
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.(*MySqlParser).ProcessOutgoing
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:36
+go.keploy.io/server/pkg/proxy.(*ProxySet).handleConnection
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:826
+go.keploy.io/server/pkg/proxy.(*ProxySet).startProxy.func1
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:585
+🐰 Keploy: 2023-12-19T19:15:17Z 	[31mERROR[0m	mysqlparser/mysqlparser.go:844	failed to read query from the mysql client	{"error": "read tcp [::1]:16789->[::1]:37338: use of closed network connection"}
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.handleClientQueries
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:844
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.encodeOutgoingMySql
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:440
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.(*MySqlParser).ProcessOutgoing
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:36
+go.keploy.io/server/pkg/proxy.(*ProxySet).handleConnection
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:826
+go.keploy.io/server/pkg/proxy.(*ProxySet).startProxy.func1
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:585
+🐰 Keploy: 2023-12-19T19:15:17Z 	[34mINFO[0m	proxy/proxy.go:1025	proxy stopped...
+🐰 Keploy: 2023-12-19T19:15:17Z 	[31mERROR[0m	mysqlparser/mysqlparser.go:844	failed to read query from the mysql client	{"error": "read tcp [::1]:16789->[::1]:37340: use of closed network connection"}
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.handleClientQueries
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:844
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.encodeOutgoingMySql
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:440
+go.keploy.io/server/pkg/proxy/integrations/mysqlparser.(*MySqlParser).ProcessOutgoing
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/integrations/mysqlparser/mysqlparser.go:36
+go.keploy.io/server/pkg/proxy.(*ProxySet).handleConnection
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:826
+go.keploy.io/server/pkg/proxy.(*ProxySet).startProxy.func1
+	/Users/sarthak_1/Documents/Keploy/v2/v2-final/keploy/pkg/proxy/proxy.go:585
+WARN  ProxyConnection - HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@6e0cff20 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 61,939 milliseconds ago. The last packet sent successfully to the server was 61,942 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema.executeMetadataQuery(DatabaseMetaDataUsingInfoSchema.java:71)
+	at com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema.getIndexInfo(DatabaseMetaDataUsingInfoSchema.java:526)
+	at com.zaxxer.hikari.pool.ProxyDatabaseMetaData.getIndexInfo(ProxyDatabaseMetaData.java:207)
+	at com.zaxxer.hikari.pool.HikariProxyDatabaseMetaData.getIndexInfo(HikariProxyDatabaseMetaData.java)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processIndexInfoResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:112)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getIndexes(AbstractInformationExtractorImpl.java:1134)
+	at org.hibernate.tool.schema.extract.internal.TableInformationImpl.indexes(TableInformationImpl.java:122)
+	at org.hibernate.tool.schema.extract.internal.TableInformationImpl.getIndex(TableInformationImpl.java:138)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyUniqueKeys(AbstractSchemaMigrator.java:397)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at org.springframework.samples.petclinic.PetClinicApplication.main(PetClinicApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 61,939 milliseconds ago. The last packet sent successfully to the server was 61,942 milliseconds ago.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:665)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:893)
+	... 51 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 56 common frames omitted
+WARN  SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+ERROR SqlExceptionHelper - Communications link failure
+
+The last packet successfully received from the server was 61,939 milliseconds ago. The last packet sent successfully to the server was 61,942 milliseconds ago.
+ERROR LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Error accessing index information: petclinic.roles
+WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Error accessing index information: petclinic.roles
+INFO  HikariDataSource - HikariPool-1 - Shutdown initiated...
+INFO  HikariDataSource - HikariPool-1 - Shutdown completed.
